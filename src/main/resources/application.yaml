@@ -23,3 +23,14 @@ spring:
   h2.console.enabled: true
   sql.init.mode: always
 
+---
+
+spring:
+  config.activate.on-profile: testdb
+#  datasource:
+#    url: ${JAWSDB_URL}
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#  jpa.hibernate.ddl-auto: create
+#  sql.init.mode: always
+
+---
